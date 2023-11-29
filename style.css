@@ -1,0 +1,389 @@
+* {
+  all: unset;
+  font-family: "SauceCodePro NF";
+}
+
+.popup {
+  color: #50fa7b;
+}
+
+.bar, tooltip {
+  background-color: #191919;
+  opacity: 0.7;
+  margin: 5px;
+  margin-bottom: 0px;
+  border-radius: 16px;
+}
+
+.right {
+  border-radius: 16px;
+}
+
+.time-text {
+  font-size: 16px;
+}
+
+.reboot-button {
+  font-size: 28px;
+  color: #b59f79;
+}
+
+.sleep-button {
+  font-size: 28px;
+  color: #b59f79;
+}
+
+.exit-button {
+  font-size: 28px;
+  color: #b59f79;
+}
+
+.power-button {
+  font-size: 28px;
+  color: #8d6f47;
+}
+
+.system-confirm {
+  color: #6c5337;
+}
+
+trough {
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: none;
+  background-color: #6c502b;
+  min-width: 4px;
+  min-height: 4px;
+}
+
+slider {
+  border-radius: 0%;
+  border-width: 1px;
+  border-style: none;
+  margin: -9px -9px -9px -9px;
+  min-width: 16px;
+  min-height: 16px;
+  background-color: transparent;
+}
+
+highlight {
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: none;
+  min-width: 6px;
+  min-height: 6px;
+}
+
+.audio-icon {
+  font-size: 24px;
+  color: #9d743e;
+}
+
+.audio-volume {
+  font-size: 16px;
+  color: #9d743e;
+}
+.audio-volume trough {
+  background-color: #6c502b;
+}
+.audio-volume slider {
+  background-color: transparent;
+}
+.audio-volume highlight {
+  background-color: #9d743e;
+}
+
+.mic-icon {
+  font-size: 24px;
+  color: #c9b797;
+}
+
+.mic-volume {
+  font-size: 16px;
+  color: #c9b797;
+}
+.mic-volume trough {
+  background-color: #6c502b;
+}
+.mic-volume slider {
+  background-color: transparent;
+}
+.mic-volume highlight {
+  background-color: #c9b797;
+}
+
+.package-outofdate {
+  margin: -5px -5px -5px -5px;
+  font-size: 24px;
+  color: #8d6f47;
+}
+
+.bt-num {
+  font-size: 16px;
+  color: #fed389;
+}
+
+.bt-label-on {
+  font-size: 20px;
+  color: #fed389;
+}
+
+.bt-label-off {
+  font-size: 24px;
+  color: #fed389;
+}
+
+.bt-label-connected {
+  font-size: 28px;
+  color: #fed389;
+}
+
+.disk-util-progress {
+  color: #c9b797;
+  background-color: #6c502b;
+  font-size: 16px;
+}
+
+.disk-data-text {
+  color: #c9b797;
+  font-size: 16px;
+}
+
+.vram-util-progress {
+  color: #9d743e;
+  background-color: #6c502b;
+}
+
+.vram-data-text {
+  color: #9d743e;
+  font-size: 16px;
+}
+
+.ram-util-progress {
+  color: #b08a4b;
+  background-color: #6c502b;
+}
+
+.ram-data-text {
+  color: #b08a4b;
+  font-size: 16px;
+}
+
+.gpu-util-progress {
+  color: #93826f;
+  background-color: #6c502b;
+}
+
+.gpu-data-text {
+  color: #93826f;
+  font-size: 16px;
+}
+
+.cpu-util-progress {
+  color: #6c5337;
+  background-color: #6c502b;
+  font-size: 16px;
+}
+
+.cpu-data-text {
+  color: #6c5337;
+  font-size: 16px;
+}
+
+.battery-util-progress {
+  color: #cfa97f;
+  background-color: #6c502b;
+  font-size: 16px;
+}
+
+.battery-data-text {
+  color: #cfa97f;
+  font-size: 16px;
+}
+
+.battery-charging {
+  color: #9d743e;
+}
+
+.network-data-text {
+  color: #6c5337;
+  font-size: 16px;
+}
+
+.network-up-under {
+  color: #6c502b;
+}
+
+.network-up-low {
+  color: #6c5337;
+}
+
+.network-up-mid-low {
+  color: #b08a4b;
+}
+
+.network-up-mid-high {
+  color: #9d743e;
+}
+
+.network-up-high {
+  color: #c9b797;
+}
+
+.network-up-over {
+  color: #8d6f47;
+}
+
+.network-down-under {
+  color: #6c502b;
+}
+
+.network-down-low {
+  color: #6c5337;
+}
+
+.network-down-mid-low {
+  color: #b08a4b;
+}
+
+.network-down-mid-high {
+  color: #9d743e;
+}
+
+.network-down-high {
+  color: #c9b797;
+}
+
+.network-down-over {
+  color: #8d6f47;
+}
+
+.ws-dead {
+  color: #6c502b;
+  font-size: 16px;
+}
+
+.ws-inactive {
+  color: #b59f79;
+  font-size: 16px;
+}
+
+.ws-visible {
+  color: #93826f;
+  font-size: 16px;
+}
+
+.ws-current {
+  color: #b08a4b;
+  font-size: 16px;
+}
+
+.ws-active {
+  color: #6c5337;
+  font-size: 16px;
+}
+
+@keyframes connectanim {
+  from {
+    background-image: radial-gradient(circle farthest-side at center, #fed389 0%, transparent 0%, transparent 100%);
+  }
+  to {
+    background-image: radial-gradient(circle farthest-side at center, #fed389 0%, #fed389 100%, transparent 100%);
+  }
+}
+@keyframes disconnectanim {
+  from {
+    background-image: radial-gradient(circle farthest-side at center, transparent 0%, #fed389 0%, #fed389 100%);
+  }
+  to {
+    background-image: radial-gradient(circle farthest-side at center, transparent 0%, transparent 100%, #fed389 100%);
+  }
+}
+@keyframes scanonanim {
+  from {
+    color: #b08a4b;
+  }
+  to {
+    color: #6c5337;
+  }
+}
+@keyframes scanoffanim {
+  from {
+    color: #6c5337;
+  }
+  to {
+    color: #b08a4b;
+  }
+}
+.bt-bg {
+  background-color: #191919;
+  border-radius: 16px;
+}
+
+.bt-header-box {
+  margin-top: 4px;
+  margin-right: 8px;
+  margin-left: 8px;
+  font-size: 24px;
+  color: #fed389;
+}
+
+.bt-body-box {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.bt-button {
+  border-radius: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  font-size: 16px;
+}
+.bt-button.active {
+  animation-name: connectanim;
+  animation-duration: 50ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.bt-button.inactive {
+  animation-name: disconnectanim;
+  animation-duration: 50ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.bt-button.failed {
+  color: #8d6f47;
+}
+
+.bt-close {
+  color: #8d6f47;
+  background-color: #6c502b;
+  border-radius: 16px;
+  padding: 0px 8px 0px 7px;
+  margin: 0px 0px 0px 8px;
+}
+
+.bt-scan {
+  color: #b08a4b;
+  background-color: #6c502b;
+  border-radius: 16px;
+  padding: 2px 11px 0px 7px;
+  margin: 0px 0px 0px 10px;
+  font-size: 18px;
+}
+.bt-scan.active {
+  animation-name: scanonanim;
+  animation-duration: 50ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.bt-scan.inactive {
+  animation-name: scanoffanim;
+  animation-duration: 50ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
