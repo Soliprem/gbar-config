@@ -285,10 +285,11 @@ highlight {
 
 .ws-dead {
     color: $inactive;
+    opacity: 0.4;
     font-size: $textsize;
 }
 .ws-inactive {
-    color: $darkblue;
+    color: $inactive;
     font-size: $textsize;
 }
 .ws-visible {
@@ -300,8 +301,9 @@ highlight {
     font-size: $textsize;
 }
 .ws-active {
-    color: $green;
-    font-size: $textsize;
+    color: $orange;
+    font-size: $textsize+2;
+    margin-bottom: 1px;
 }
 
 // Bluetooth Widget
