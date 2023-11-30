@@ -1,6 +1,6 @@
 // colorscheme(generated)
 @import "flatcolor";
-
+$opacity: 0.5;
 $textsize: 16px;
 
 *{
@@ -30,22 +30,22 @@ $textsize: 16px;
     border-radius: 16px;
     padding-left: 10px;
     padding-right: 5px;
-    background-color: transparentize($bg, .1);
+    background-color: rgba($bg, $opacity);
 }
 
 .right {
     border-radius: 16px;
     padding-left: 10px;
-    background-color: transparentize($bg, .1);
-    opacity: 0.7;
+    opacity: $opacity;
+    background-color: $bg;
 }
 
 .center {
     border-radius: 16px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: transparentize($bg, .1);
-    opacity: 0.7;
+    opacity: $opacity;
+    background-color: $bg;
 
 }
 .time-text {

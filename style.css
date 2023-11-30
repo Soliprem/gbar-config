@@ -18,22 +18,22 @@
   border-radius: 16px;
   padding-left: 10px;
   padding-right: 5px;
-  background-color: rgba(25, 22, 21, 0.9);
+  background-color: rgba(20, 20, 20, 0.5);
 }
 
 .right {
   border-radius: 16px;
   padding-left: 10px;
-  background-color: rgba(25, 22, 21, 0.9);
-  opacity: 0.7;
+  opacity: 0.5;
+  background-color: #141414;
 }
 
 .center {
   border-radius: 16px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: rgba(25, 22, 21, 0.9);
-  opacity: 0.7;
+  opacity: 0.5;
+  background-color: #141414;
 }
 
 .time-text {
@@ -42,33 +42,33 @@
 
 .reboot-button {
   font-size: 28px;
-  color: #bd7639;
+  color: #4d4c4d;
 }
 
 .sleep-button {
   font-size: 28px;
-  color: #bd7639;
+  color: #4d4c4d;
 }
 
 .exit-button {
   font-size: 28px;
-  color: #bd7639;
+  color: #4d4c4d;
 }
 
 .power-button {
   font-size: 28px;
-  color: #9c5e2a;
+  color: #b70915;
 }
 
 .system-confirm {
-  color: #6e3b14;
+  color: #494848;
 }
 
 trough {
   border-radius: 3px;
   border-width: 1px;
   border-style: none;
-  background-color: #78473b;
+  background-color: #4d080b;
   min-width: 4px;
   min-height: 4px;
 }
@@ -93,249 +93,249 @@ highlight {
 
 .audio-icon {
   font-size: 24px;
-  color: #af6755;
+  color: #700b10;
 }
 
 .audio-volume {
   font-size: 16px;
-  color: #af6755;
+  color: #700b10;
 }
 .audio-volume trough {
-  background-color: #78473b;
+  background-color: #4d080b;
 }
 .audio-volume slider {
   background-color: transparent;
 }
 .audio-volume highlight {
-  background-color: #af6755;
+  background-color: #700b10;
 }
 
 .mic-icon {
   font-size: 24px;
-  color: #9d6b5f;
+  color: #636061;
 }
 
 .mic-volume {
   font-size: 16px;
-  color: #9d6b5f;
+  color: #636061;
 }
 .mic-volume trough {
-  background-color: #78473b;
+  background-color: #4d080b;
 }
 .mic-volume slider {
   background-color: transparent;
 }
 .mic-volume highlight {
-  background-color: #9d6b5f;
+  background-color: #636061;
 }
 
 .package-outofdate {
   margin: -5px -5px -5px -5px;
   font-size: 24px;
-  color: #9c5e2a;
+  color: #b70915;
 }
 
 .bt-num {
   font-size: 16px;
-  color: #ff983a;
+  color: #6d586d;
 }
 
 .bt-label-on {
   font-size: 20px;
-  color: #ff983a;
+  color: #6d586d;
 }
 
 .bt-label-off {
   font-size: 24px;
-  color: #ff983a;
+  color: #6d586d;
 }
 
 .bt-label-connected {
   font-size: 28px;
-  color: #ff983a;
+  color: #6d586d;
 }
 
 .disk-util-progress {
-  color: #9d6b5f;
-  background-color: #78473b;
+  color: #636061;
+  background-color: #4d080b;
   font-size: 16px;
 }
 
 .disk-data-text {
-  color: #9d6b5f;
+  color: #636061;
   font-size: 16px;
 }
 
 .vram-util-progress {
-  color: #af6755;
-  background-color: #78473b;
+  color: #700b10;
+  background-color: #4d080b;
 }
 
 .vram-data-text {
-  color: #af6755;
+  color: #700b10;
   font-size: 16px;
 }
 
 .ram-util-progress {
-  color: #edb982;
-  background-color: #78473b;
+  color: #8f8f8f;
+  background-color: #4d080b;
 }
 
 .ram-data-text {
-  color: #edb982;
+  color: #8f8f8f;
   font-size: 16px;
 }
 
 .gpu-util-progress {
-  color: #ce9064;
-  background-color: #78473b;
+  color: #671115;
+  background-color: #4d080b;
 }
 
 .gpu-data-text {
-  color: #ce9064;
+  color: #671115;
   font-size: 16px;
 }
 
 .cpu-util-progress {
-  color: #6e3b14;
-  background-color: #78473b;
+  color: #494848;
+  background-color: #4d080b;
   font-size: 16px;
 }
 
 .cpu-data-text {
-  color: #6e3b14;
+  color: #494848;
   font-size: 16px;
 }
 
 .battery-util-progress {
-  color: #ffb76e;
-  background-color: #78473b;
+  color: #8d0e14;
+  background-color: #4d080b;
   font-size: 16px;
 }
 
 .battery-data-text {
-  color: #ffb76e;
+  color: #8d0e14;
   font-size: 16px;
 }
 
 .battery-charging {
-  color: #af6755;
+  color: #700b10;
 }
 
 .network-data-text {
-  color: #6e3b14;
+  color: #494848;
   font-size: 16px;
 }
 
 .network-up-under {
-  color: #78473b;
+  color: #4d080b;
 }
 
 .network-up-low {
-  color: #6e3b14;
+  color: #494848;
 }
 
 .network-up-mid-low {
-  color: #edb982;
+  color: #8f8f8f;
 }
 
 .network-up-mid-high {
-  color: #af6755;
+  color: #700b10;
 }
 
 .network-up-high {
-  color: #9d6b5f;
+  color: #636061;
 }
 
 .network-up-over {
-  color: #9c5e2a;
+  color: #b70915;
 }
 
 .network-down-under {
-  color: #78473b;
+  color: #4d080b;
 }
 
 .network-down-low {
-  color: #6e3b14;
+  color: #494848;
 }
 
 .network-down-mid-low {
-  color: #edb982;
+  color: #8f8f8f;
 }
 
 .network-down-mid-high {
-  color: #af6755;
+  color: #700b10;
 }
 
 .network-down-high {
-  color: #9d6b5f;
+  color: #636061;
 }
 
 .network-down-over {
-  color: #9c5e2a;
+  color: #b70915;
 }
 
 .ws-dead {
-  color: #78473b;
+  color: #4d080b;
   opacity: 0.4;
   font-size: 16px;
 }
 
 .ws-inactive {
-  color: #78473b;
+  color: #4d080b;
   font-size: 16px;
 }
 
 .ws-visible {
-  color: #ce9064;
+  color: #671115;
   font-size: 16px;
 }
 
 .ws-current {
-  color: #edb982;
+  color: #8f8f8f;
   font-size: 16px;
 }
 
 .ws-active {
-  color: #af6755;
+  color: #700b10;
   font-size: 18px;
   margin-bottom: 1px;
 }
 
 @keyframes connectanim {
   from {
-    background-image: radial-gradient(circle farthest-side at center, #ff983a 0%, transparent 0%, transparent 100%);
+    background-image: radial-gradient(circle farthest-side at center, #6d586d 0%, transparent 0%, transparent 100%);
   }
   to {
-    background-image: radial-gradient(circle farthest-side at center, #ff983a 0%, #ff983a 100%, transparent 100%);
+    background-image: radial-gradient(circle farthest-side at center, #6d586d 0%, #6d586d 100%, transparent 100%);
   }
 }
 @keyframes disconnectanim {
   from {
-    background-image: radial-gradient(circle farthest-side at center, transparent 0%, #ff983a 0%, #ff983a 100%);
+    background-image: radial-gradient(circle farthest-side at center, transparent 0%, #6d586d 0%, #6d586d 100%);
   }
   to {
-    background-image: radial-gradient(circle farthest-side at center, transparent 0%, transparent 100%, #ff983a 100%);
+    background-image: radial-gradient(circle farthest-side at center, transparent 0%, transparent 100%, #6d586d 100%);
   }
 }
 @keyframes scanonanim {
   from {
-    color: #edb982;
+    color: #8f8f8f;
   }
   to {
-    color: #6e3b14;
+    color: #494848;
   }
 }
 @keyframes scanoffanim {
   from {
-    color: #6e3b14;
+    color: #494848;
   }
   to {
-    color: #edb982;
+    color: #8f8f8f;
   }
 }
 .bt-bg {
-  background-color: #191615;
+  background-color: #141414;
   border-radius: 16px;
 }
 
@@ -344,7 +344,7 @@ highlight {
   margin-right: 8px;
   margin-left: 8px;
   font-size: 24px;
-  color: #ff983a;
+  color: #6d586d;
 }
 
 .bt-body-box {
@@ -375,20 +375,20 @@ highlight {
   animation-fill-mode: forwards;
 }
 .bt-button.failed {
-  color: #9c5e2a;
+  color: #b70915;
 }
 
 .bt-close {
-  color: #9c5e2a;
-  background-color: #78473b;
+  color: #b70915;
+  background-color: #4d080b;
   border-radius: 16px;
   padding: 0px 8px 0px 7px;
   margin: 0px 0px 0px 8px;
 }
 
 .bt-scan {
-  color: #edb982;
-  background-color: #78473b;
+  color: #8f8f8f;
+  background-color: #4d080b;
   border-radius: 16px;
   padding: 2px 11px 0px 7px;
   margin: 0px 0px 0px 10px;
