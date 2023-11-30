@@ -19,20 +19,37 @@ $textsize: 16px;
 
 
 .bar,tooltip{
-    background-color: transparentize($bg, .3);
+    // background-color: transparentize($bg, .3);
+    background-color:transparent;
     margin: 5px;
     margin-bottom:0px;
     border-radius: 16px;
 }
 
+.workspaces {
+    border-radius: 16px;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: transparentize($bg, .1);
+}
+
 .right {
     border-radius: 16px;
+    padding-left: 10px;
+    background-color: transparentize($bg, .1);
     opacity: 0.7;
 }
 
+.center {
+    border-radius: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparentize($bg, .1);
+    opacity: 0.7;
+
+}
 .time-text {
     font-size: $textsize;
-    opacity: 0.7;
 }
 
 .reboot-button {
